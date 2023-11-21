@@ -10,4 +10,5 @@ app.listen(process.env.PORT, () => {
 
 app.use(express.json());
 app.use("/api/users", require("./routes/users.routes"));
+app.use("/api/team", require("./routes/team.routes"));
 
